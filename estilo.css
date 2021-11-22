@@ -1,0 +1,186 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background:url('fondo1.jpg');
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+
+}
+header{
+	width: 100%;
+	height: 60px;
+	box-shadow: 1px 1px 5px #000;
+}
+p{
+	color: #fff;
+}
+
+.tabla{
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background: #8A36D2;
+	z-index: 10;
+}
+.navegacion{
+	margin-top: -50px;
+	margin-left: 750px;
+	z-index: 5;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.Menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.Menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'candara';
+	text-decoration: none;
+}
+
+.Menu li a:hover{
+  color: #CE7D35;
+  transition: all .3s;
+}
+
+.submenu {
+	position: absolute;
+	background-color: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration:none;
+}
+
+.Menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.imagen{
+	position: relative;
+	width:600px;
+	height: 350px;
+	right: 300px;
+	padding: 20px;
+	top:200px;
+}
+.imagen1{
+	position: relative;
+	width: 600px;
+	height: 350px;
+	padding: 20px;
+	top:180px;
+}
+.imagen2{
+	position: relative;
+	width: 600px;
+	height: 350px;
+	top:0px;
+}
+
+.texto{
+	position: relative;
+	top:0px;
+	width: 500px;
+	height: 300px;
+	bottom: 50px;
+	padding: 5px;
+	left:40px;
+	font-family: 'lucida bright';
+}
+
+.texto1{
+	position: relative;
+	width: 500px;
+	left: 800px;
+	padding:3px;
+	font-family: 'lucida bright';
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 180px;
+}
+.flex1{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 180px;
+}
+.flex-redes{
+	display: flex;
+	padding-top: 150px;
+}
+
+.titulo{
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+	color: #ee82ee;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	background-color:#000;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+}
+ form{
+ 	width: 350px;
+ 	margin: auto;
+ 	background: rgba(0,0,0,0.5);
+ 	padding: 10px 20px;
+ 	box-sizing: border-box;
+ 	margin-top: 0px;
+ 	border-radius: 20px;
+ }
+ input, textarea{
+ 	width: 100%;
+ 	height: 0px;
+ 	margin-bottom: 600px;
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	font-size: 400px;
+ 	border:none;
+ }
+
+ textarea{
+ 	min-height: 150px;
+ 	max-height: 200px;
+ 	max-width: 100%;
+ }
+
+ #boton{
+ 	background: #31384A;
+ 	color: #fff;
+ 	padding: 30px;
+ }
+
+ #boton:hover{
+ 	cursor:pointer;
+ 	color: #CE7D35;
+ }
+
